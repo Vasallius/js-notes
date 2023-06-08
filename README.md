@@ -16,6 +16,8 @@ This repository will contain notes as I learn more about javascript.
 
 
 ### Functions and Callbacks
+- need to generalize functions do we don't repeat ourselves
+- hence the need for higher order functions
 
 ### Closure
 
