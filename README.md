@@ -21,8 +21,15 @@ This repository will contain notes as I learn more about javascript.
 - functions are first class objects
 - can co-exist with and can be treated like any other javascript object
 - can be assigned to variables and properties of other objects, passed as arguments into functions, returned as values from functions
+- arrow functions
+- should you declare functions using `function` keyword or arrow syntax?
+  - mostly preference with some minor difference: arrow functions do not have their own bindings to `this`, `arguments`, or `super` 
 
 ### Closure
+- most esoteric of javascript concepts
+- enables powerful prolevel functions like once and memoize
+- many js design patterns including the module pattern use closure
+- build iterators, handle partial application and maintain state in an asynchronous world
 
 ### Asynchronous Javascript & the event loop
 
