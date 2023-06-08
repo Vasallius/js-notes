@@ -2,9 +2,7 @@
 
 This repository will contain notes as I learn more about javascript.
 
-## Principles
-
-### Thread of execution
+### Javascript Principles
 
 - goes through the code line by line
 - stuff gets saved to memory as it encounters variables / functions
@@ -17,10 +15,12 @@ This repository will contain notes as I learn more about javascript.
 - therefore, whatever is on the top of the call stack, that is we are currently running
 
 
-## Callbacks and Higher order functions
+### Functions and Callbacks
 
-## CLosure(scope and execution context)
+### Closure
 
-## Asynchronous Javascript & the event loop
+### Asynchronous Javascript & the event loop
 
-## Classes and Prototypes (OOP)
+### Promises
+
+### Classes and Prototypes (OOP)
