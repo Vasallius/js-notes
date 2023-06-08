@@ -16,8 +16,11 @@ This repository will contain notes as I learn more about javascript.
 
 
 ### Functions and Callbacks
-- need to generalize functions do we don't repeat ourselves
+- need to generalize functions so we don't repeat ourselves
 - hence the need for higher order functions
+- functions are first class objects
+- can co-exist with and can be treated like any other javascript object
+- can be assigned to variables and properties of other objects, passed as arguments into functions, returned as values from functions
 
 ### Closure
 
