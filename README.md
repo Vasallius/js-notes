@@ -30,6 +30,7 @@ This repository will contain notes as I learn more about javascript.
 - enables powerful prolevel functions like once and memoize
 - many js design patterns including the module pattern use closure
 - build iterators, handle partial application and maintain state in an asynchronous world
+- when function finishes, local memory is deleted except the returned value (what if we return a function?)
 
 ### Asynchronous Javascript & the event loop
 
