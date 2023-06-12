@@ -31,6 +31,8 @@ This repository will contain notes as I learn more about javascript.
 - many js design patterns including the module pattern use closure
 - build iterators, handle partial application and maintain state in an asynchronous world
 - when function finishes, local memory is deleted except the returned value (what if we return a function?)
+- when function gets declared is also stores the local memory in the "backpack" so when it's called and a variable cannot be found in the local memory, it checks the "backpack" before going down a level in the call stack
+- basically closure is a collection of all the variables in scope at the time of creation of the function.
 
 ### Asynchronous Javascript & the event loop
 
