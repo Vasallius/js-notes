@@ -33,6 +33,7 @@ This repository will contain notes as I learn more about javascript.
 - when function finishes, local memory is deleted except the returned value (what if we return a function?)
 - when function gets declared is also stores the local memory in the "backpack" so when it's called and a variable cannot be found in the local memory, it checks the "backpack" before going down a level in the call stack
 - basically closure is a collection of all the variables in scope at the time of creation of the function.
+- backpack is technically a persistent lexical scope referenced data
 
 ### Asynchronous Javascript & the event loop
 
